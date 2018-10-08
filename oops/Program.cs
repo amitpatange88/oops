@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace oops
 {
@@ -10,6 +6,16 @@ namespace oops
     {
         static void Main(string[] args)
         {
+            //all oops concepts are implemented here.
+        }
+        
+        /// <summary>
+        /// This is an example Delegate. 
+        /// </summary>
+        private void RunDelegate()
+        {
+            //Delegate Example demo.
+            TestDelegate.CallDelegate();
         }
     }
 }
