@@ -14,10 +14,15 @@ namespace oops
             //PrintNumbers();
             //PrintNumbers();
 
+            Thread t0 = new Thread(PrintNumbers);
             Thread t1 = new Thread(delegate () { PrintNumbers(); });
             Thread t2 = new Thread(new ThreadStart(PrintNumbers));
+            Thread t3 = new Thread(()=> PrintNumbers());
+
+            t0.Start();
             t1.Start();
             t2.Start();
+            t3.Start();
         }
 
         public void PrintNumbers()
