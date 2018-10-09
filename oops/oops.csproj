@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DelegateOperation.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Multithread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

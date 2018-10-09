@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace oops
 {
@@ -7,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            Program.RunVirtualOverideMethods();
+            Multithreading();
         }
         
         /// <summary>
@@ -27,5 +28,18 @@ namespace oops
         {
             Employee.Run();
         }
+
+        /// <summary>
+        /// Runs program for multithreading.
+        /// </summary>
+
+        private static void Multithreading()
+        {
+            Multithread m1 = new Multithread();
+            m1.TwoThreadedMethod();
+            Console.ReadKey();
+        }
     }
+
+    
 }
