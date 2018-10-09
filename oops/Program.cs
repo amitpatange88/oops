@@ -36,6 +36,8 @@ namespace oops
         {
             ThreadAppDemo t = new ThreadAppDemo();
             t.RunDemo();
+
+            Console.ReadKey();
         }
     }
 
