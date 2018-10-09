@@ -32,12 +32,10 @@ namespace oops
         /// <summary>
         /// Runs program for multithreading.
         /// </summary>
-
         private static void Multithreading()
         {
-            Multithread m1 = new Multithread();
-            m1.TwoThreadedMethod();
-            Console.ReadKey();
+            ThreadAppDemo t = new ThreadAppDemo();
+            t.RunDemo();
         }
     }
 
