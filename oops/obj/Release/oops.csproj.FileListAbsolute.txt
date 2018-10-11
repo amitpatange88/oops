@@ -1,0 +1,5 @@
+C:\E\VS-Programs\oops\oops\bin\Release\oops.exe.config
+C:\E\VS-Programs\oops\oops\bin\Release\oops.exe
+C:\E\VS-Programs\oops\oops\bin\Release\oops.pdb
+C:\E\VS-Programs\oops\oops\obj\Release\oops.exe
+C:\E\VS-Programs\oops\oops\obj\Release\oops.pdb

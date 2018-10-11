@@ -8,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            AsynchronousCall();
+            VolatileTypeCall();
         }
         
         /// <summary>
@@ -46,6 +46,14 @@ namespace oops
             Console.WriteLine("Asynchronous call starts");
             a.CallAsyncMethods();
             Console.WriteLine("Asynchronous call ends");
+            Console.ReadKey();
+        }
+
+
+        private static void VolatileTypeCall()
+        {
+            VolatileConcept v = new VolatileConcept();
+            v.EntryFunction();
             Console.ReadKey();
         }
     }
