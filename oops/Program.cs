@@ -8,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            Multithreading();
+            AsynchronousCall();
         }
         
         /// <summary>
@@ -37,6 +37,15 @@ namespace oops
             ThreadAppDemo t = new ThreadAppDemo();
             t.RunDemo();
 
+            Console.ReadKey();
+        }
+
+        private static void AsynchronousCall()
+        {
+            Asynchronous a = new Asynchronous();
+            Console.WriteLine("Asynchronous call starts");
+            a.CallAsyncMethods();
+            Console.WriteLine("Asynchronous call ends");
             Console.ReadKey();
         }
     }
