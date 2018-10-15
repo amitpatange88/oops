@@ -214,6 +214,9 @@ namespace oops
 
             //Until all finished. it will wait.
             Task.WaitAll(taskList.ToArray());
+
+
+            Parallel.For(0, 100, (i) => Console.WriteLine(i));
         }
     }
 }

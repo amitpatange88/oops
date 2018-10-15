@@ -75,6 +75,10 @@ namespace oops
             Console.ReadLine();
         }
 
+
+        /// <summary>
+        /// Create threads using Task.Factory static method.
+        /// </summary>
         private static void TaskFactoryRun()
         {
             ThreadAppDemo t = new ThreadAppDemo();
