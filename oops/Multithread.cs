@@ -189,7 +189,31 @@ namespace oops
         {
             Console.WriteLine("Final Function Call");
         }
-    }
-        
 
+        public void DoSomething(int id, int sleeptime)
+        {
+            Console.WriteLine("Started working on dosomething task with id : "+id);
+            Thread.Sleep(sleeptime);
+            Console.WriteLine("Completed working on dosomething task with id : " + id);
+        }
+
+        public void DoSomethingMore(int id, int sleeptime)
+        {
+            Console.WriteLine("Started working on dosomethingmore++ task with id : " + id);
+            Thread.Sleep(sleeptime);
+            Console.WriteLine("Completed working on dosomethingmore++ task with id : " + id);
+        }
+
+        public void InvokeTaskFactory()
+        {
+            var t1 = Task.Factory.StartNew(() => DoSomething(1, 1500)).ContinueWith((prevTask) => DoSomethingMore(1, 2000));
+            var t2 = Task.Factory.StartNew(() => DoSomething(2, 3000)).ContinueWith((prevTask) => DoSomethingMore(2, 1000));
+            var t3 = Task.Factory.StartNew(() => DoSomething(3, 1000)).ContinueWith((prevTask) => DoSomethingMore(3, 3000));
+
+            var taskList = new List<Task> { t1, t2, t3};
+
+            //Until all finished. it will wait.
+            Task.WaitAll(taskList.ToArray());
+        }
+    }
 }

@@ -8,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            VolatileTypeCall();
+            CallLinq();
         }
         
         /// <summary>
@@ -55,6 +55,30 @@ namespace oops
             VolatileConcept v = new VolatileConcept();
             v.EntryFunction();
             Console.ReadKey();
+        }
+
+        private static void CallLinq()
+        {
+            Console.ReadKey();
+        }
+
+
+        /// <summary>
+        /// Extension methods are static functions of a static class. These methods can be invoked just like instance method syntax.
+        /// These methods are useful when we can not want to modify the class. Below is the example of Extension Method on string class.
+        /// </summary>
+        private static void ExtensionMethods()
+        {
+            string value = "malslfds";
+            Console.WriteLine(value.IsStartWithLetterM()); //print true;
+
+            Console.ReadLine();
+        }
+
+        private static void TaskFactoryRun()
+        {
+            ThreadAppDemo t = new ThreadAppDemo();
+            t.InvokeTaskFactory();
         }
     }
 

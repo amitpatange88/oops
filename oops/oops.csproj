@@ -45,9 +45,12 @@
     <Compile Include="Asynchronous.cs" />
     <Compile Include="DelegateOperation.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="LINQData.cs" />
     <Compile Include="Multithread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
