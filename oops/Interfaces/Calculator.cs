@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace oops.Interfaces
 {
     /// <summary>
-    /// Interfaces : Explicit Contracts, enforces rules, decoupling. 
+    /// Interfaces : Explicit Contracts, enforces rules, decoupling from caller and callee. Impact Analysis. Abstraction - Show only what is necessary.
     /// </summary>
     public class Calculator
     {
