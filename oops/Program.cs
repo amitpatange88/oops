@@ -8,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            CallLinq();
+            AnonymousTyesUsage();
         }
         
         /// <summary>
@@ -83,6 +83,18 @@ namespace oops
         {
             ThreadAppDemo t = new ThreadAppDemo();
             t.InvokeTaskFactory();
+        }
+
+        private static void TupleUsage()
+        {
+            TupleUsage t = new oops.TupleUsage();
+            t.CreateTuple();
+        }
+
+        private static void AnonymousTyesUsage()
+        {
+            AnonymousTypesUsage a = new oops.AnonymousTypesUsage();
+            a.CreateAnonymous();
         }
     }
 
