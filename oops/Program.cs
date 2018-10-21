@@ -8,7 +8,7 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            YieldKeyword();
+            Indexers();
         }
         
         /// <summary>
@@ -100,6 +100,13 @@ namespace oops
         private static void YieldKeyword()
         {
             YieldKyeword.PrintList();
+            Console.ReadKey();
+        }
+
+        private static void Indexers()
+        {
+            Indexers i = new Indexers();
+            i.IndexerCaller();
             Console.ReadKey();
         }
     }

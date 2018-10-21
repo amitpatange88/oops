@@ -46,6 +46,7 @@
     <Compile Include="DelegateOperation.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="IEmployee.cs" />
+    <Compile Include="Indexers.cs" />
     <Compile Include="LINQData.cs" />
     <Compile Include="Multithread.cs" />
     <Compile Include="Program.cs" />
