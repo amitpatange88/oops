@@ -47,6 +47,10 @@
     <Compile Include="Employee.cs" />
     <Compile Include="IEmployee.cs" />
     <Compile Include="Indexers.cs" />
+    <Compile Include="Interfaces\Calculator.cs" />
+    <Compile Include="Interfaces\IAdvancedMathComponents.cs" />
+    <Compile Include="Interfaces\IBasicMathComponents.cs" />
+    <Compile Include="Interfaces\MathComponents.cs" />
     <Compile Include="LINQData.cs" />
     <Compile Include="Multithread.cs" />
     <Compile Include="Program.cs" />
@@ -57,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inheritance\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
