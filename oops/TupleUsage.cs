@@ -10,6 +10,9 @@ namespace oops
     {
         public void CreateTuple()
         {
+            Tuple<int, string, string> person =
+                        new Tuple<int, string, string>(1, "Steve", "Jobs");
+            
             //firstname middlename lastname
             string fullName = "Amit B Patange";
 
@@ -43,6 +46,14 @@ namespace oops
     {
         public void CreateAnonymous()
         {
+            var myAnonymousType = new
+            {
+                firstProperty = "First",
+                secondProperty = 2,
+                thirdProperty = true
+            };
+
+            
             //firstname middlename lastname
             string fullName = "Rohan P Vadge";
 

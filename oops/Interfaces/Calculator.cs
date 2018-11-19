@@ -17,6 +17,7 @@ namespace oops.Interfaces
             IBasicMathComponents m1 = new MathComponents();
             m1.Add(2, 3);
             m1.Sub(8, 3);
+           
             
             //Level of abstraction show only what is only necessary to objects.
             IAdvancedMathComponents m2 = new MathComponents();
@@ -24,6 +25,10 @@ namespace oops.Interfaces
             m2.Sub(3, 6);
             m2.Log();
             m2.Sin(3.0, 5.0);
+
+            IBasicMathComponentsExtended m3 = new MathComponents();
+            
+            
 
         }
     }

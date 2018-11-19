@@ -8,7 +8,10 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            Indexers();
+            Console.WriteLine(System.Environment.MachineName);
+            Console.WriteLine(System.Environment.UserName);
+            Console.WriteLine(System.Environment.UserInteractive);
+            Console.ReadKey();
         }
         
         /// <summary>

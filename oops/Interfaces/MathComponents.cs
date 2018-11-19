@@ -17,22 +17,17 @@ namespace oops.Interfaces
             throw new NotImplementedException();
         }
 
+        public int Sub(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+
         public int Cos(double opp, double hypo)
         {
             throw new NotImplementedException();
         }
 
-        public int Div(int a, int b)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Log()
-        {
-            throw new NotImplementedException();
-        }
-
-        public int Mul(int a, int b)
         {
             throw new NotImplementedException();
         }
@@ -47,9 +42,15 @@ namespace oops.Interfaces
             throw new NotImplementedException();
         }
 
-        public int Sub(int a, int b)
+        public int Div(int a, int b)
         {
             throw new NotImplementedException();
         }
+
+        public int Mul(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
