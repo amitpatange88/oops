@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contractual.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeManager.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="MethodOverloading.cs" />
+    <Compile Include="MethodOverriding.cs" />
+    <Compile Include="Permanant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubCon.cs" />
+    <Compile Include="Temporary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
