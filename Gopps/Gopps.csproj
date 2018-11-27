@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21F14D81-F909-45C1-AEA7-8B7FE0F67D0F}</ProjectGuid>
+    <ProjectGuid>{C8905232-33E4-4028-845F-28CF4AFA4ED9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>oops</RootNamespace>
-    <AssemblyName>oops</AssemblyName>
+    <RootNamespace>Gopps</RootNamespace>
+    <AssemblyName>Gopps</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,35 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Asynchronous.cs" />
-    <Compile Include="DelegateOperation.cs" />
     <Compile Include="Employee.cs" />
-    <Compile Include="encap\Student.cs" />
-    <Compile Include="IEmployee.cs" />
-    <Compile Include="Indexers.cs" />
-    <Compile Include="Interfaces\Calculator.cs" />
-    <Compile Include="Interfaces\IAdvancedMathComponents.cs" />
-    <Compile Include="Interfaces\IBasicMathComponents.cs" />
-    <Compile Include="Interfaces\MathComponents.cs" />
-    <Compile Include="LINQData.cs" />
-    <Compile Include="Multithread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringMethods.cs" />
-    <Compile Include="TupleUsage.cs" />
-    <Compile Include="YieldKyeword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Inheritance\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Gopps\Gopps.csproj">
-      <Project>{c8905232-33e4-4028-845f-28cf4afa4ed9}</Project>
-      <Name>Gopps</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
