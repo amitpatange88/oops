@@ -1,10 +1,9 @@
-﻿using Gopps;
-using System;
+﻿using System;
 using System.Threading;
 
 namespace oops
 {
-    class Program : BaseClass
+    class Program //: BaseClass
     {
         static void Main(string[] args)
         {
@@ -13,15 +12,15 @@ namespace oops
             Console.WriteLine(System.Environment.UserName);
             Console.WriteLine(System.Environment.UserInteractive);
 
-            BaseClass baseObject = new BaseClass();
-            Program derivedObject = new Program();
+            //BaseClass baseObject = new BaseClass();
+            //Program derivedObject = new Program();
 
             // Error CS1540, because myValue can only be accessed by
             // classes derived from BaseClass.
             //baseObject.myValue = 10;
 
             // OK, because this class derives from BaseClass.
-            derivedObject.myValue = 10;
+            //derivedObject.myValue = 10;
 
             Console.ReadKey();
         }

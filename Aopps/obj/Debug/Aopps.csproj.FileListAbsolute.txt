@@ -1,6 +1,6 @@
 C:\E\VS-Programs\oops\Aopps\bin\Debug\Aopps.exe.config
 C:\E\VS-Programs\oops\Aopps\bin\Debug\Aopps.exe
 C:\E\VS-Programs\oops\Aopps\bin\Debug\Aopps.pdb
-C:\E\VS-Programs\oops\Aopps\obj\Debug\Aopps.csprojResolveAssemblyReference.cache
 C:\E\VS-Programs\oops\Aopps\obj\Debug\Aopps.exe
 C:\E\VS-Programs\oops\Aopps\obj\Debug\Aopps.pdb
+C:\E\VS-Programs\oops\Aopps\obj\Debug\Aopps.csprojResolveAssemblyReference.cache

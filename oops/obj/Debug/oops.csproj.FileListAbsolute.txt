@@ -3,4 +3,3 @@ C:\E\VS-Programs\oops\oops\bin\Debug\oops.exe
 C:\E\VS-Programs\oops\oops\bin\Debug\oops.pdb
 C:\E\VS-Programs\oops\oops\obj\Debug\oops.exe
 C:\E\VS-Programs\oops\oops\obj\Debug\oops.pdb
-C:\E\VS-Programs\oops\oops\obj\Debug\oops.csprojResolveAssemblyReference.cache

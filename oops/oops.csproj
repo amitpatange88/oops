@@ -66,11 +66,5 @@
   <ItemGroup>
     <Folder Include="Inheritance\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Gopps\Gopps.csproj">
-      <Project>{c8905232-33e4-4028-845f-28cf4afa4ed9}</Project>
-      <Name>Gopps</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
