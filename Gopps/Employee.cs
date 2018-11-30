@@ -8,15 +8,21 @@ namespace Gopps
 {
     public class Employee
     {
-        public int EmpId = 0;
-        public string EmpName = string.Empty;
-
-        public struct PermanantEmployee
+        public struct CoOrds
         {
-            //public PermanantEmployee()
+            public int x, y;
+
+            //parameter less consruct from struct
+            //public CoOrds()
             //{
 
             //}
+
+            public CoOrds(int p1, int p2)
+            {
+                x = p1;
+                y = p2;
+            }
         }
     }
 
