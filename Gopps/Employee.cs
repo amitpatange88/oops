@@ -8,7 +8,16 @@ namespace Gopps
 {
     public class Employee
     {
-       
+        public int EmpId = 0;
+        public string EmpName = string.Empty;
+
+        public struct PermanantEmployee
+        {
+            //public PermanantEmployee()
+            //{
+
+            //}
+        }
     }
 
     public class BaseClass
