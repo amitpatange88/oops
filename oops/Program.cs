@@ -3,8 +3,11 @@ using System.Threading;
 
 namespace oops
 {
-    class Program //: BaseClass
+    public class Program //: BaseClass
     {
+        //present in 7.3 c# version.
+        //private protected string MyName = default(string);
+
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
