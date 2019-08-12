@@ -3,6 +3,9 @@ using System.Threading;
 
 namespace oops
 {
+    /// <summary>
+    /// Startup class i.e. Program
+    /// </summary>
     public class Program //: BaseClass
     {
         //present in 7.3 c# version.
