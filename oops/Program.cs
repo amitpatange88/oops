@@ -4,7 +4,7 @@ using System.Threading;
 namespace oops
 {
     /// <summary>
-    /// Startup class i.e. Program
+    /// Startup class i.e. Program...
     /// </summary>
     public class Program //: BaseClass
     {
