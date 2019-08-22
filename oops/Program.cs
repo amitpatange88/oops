@@ -14,9 +14,9 @@ namespace oops
         static void Main(string[] args)
         {
             //all oops concepts are implemented here.
-            Console.WriteLine(System.Environment.MachineName);
-            Console.WriteLine(System.Environment.UserName);
-            Console.WriteLine(System.Environment.UserInteractive);
+            //Console.WriteLine(System.Environment.MachineName);
+            //Console.WriteLine(System.Environment.UserName);
+            //Console.WriteLine(System.Environment.UserInteractive);
 
             //BaseClass baseObject = new BaseClass();
             //Program derivedObject = new Program();
@@ -28,7 +28,19 @@ namespace oops
             // OK, because this class derives from BaseClass.
             //derivedObject.myValue = 10;
 
+            //ternary operator example
+            TernartOperator();
+
             Console.ReadKey();
+        }
+
+        public static void TernartOperator()
+        {
+            int x = 20, y = 10;
+
+            var result = x > y ? "x is greater than y" : "x is less than or equal to y";
+
+            Console.WriteLine(result);
         }
         
         /// <summary>
