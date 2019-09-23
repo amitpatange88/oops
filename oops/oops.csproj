@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessibilityDomain.cs" />
     <Compile Include="Asynchronous.cs" />
     <Compile Include="DelegateOperation.cs" />
     <Compile Include="Employee.cs" />
