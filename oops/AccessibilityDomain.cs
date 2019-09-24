@@ -6,6 +6,29 @@ using System.Threading.Tasks;
 
 namespace oops
 {
+    class A
+    {
+        //protected access modifier
+        protected int x = 123;
+    }
+
+    
+    class B : A
+    {
+        static void Start()
+        {
+            var a = new A();
+            var b = new B();
+
+            // Error CS1540, because x can only be accessed by
+            // classes derived from A.
+            //a.x = 10; 
+
+            // OK, because this class derives from A.
+            b.x = 10;
+        }
+    }
+
     class AccessibilityDomain
     {
     }
@@ -71,7 +94,7 @@ namespace oops
 
     class MainClass
     {
-        static void Main()
+        static void Entry()
         {
             // Access is unlimited.
             T1.publicInt = 1;
@@ -103,6 +126,94 @@ namespace oops
             // Keep the console open in debug mode.
             System.Console.WriteLine("Press any key to exit.");
             System.Console.ReadKey();
+        }
+    }
+
+    //Protected Internal
+    // Assembly1.cs
+    // Compile with: /target:library
+    public class BaseClass
+    {
+        protected internal int myValue = 0;
+    }
+
+    class TestAccess
+    {
+        void Access()
+        {
+            var baseObject = new BaseClass();
+            baseObject.myValue = 5;
+        }
+    }
+
+
+    // Assembly2.cs
+    // Compile with: /reference:Assembly1.dll
+    class DerivedClass : BaseClass
+    {
+        static void FirstPoint()
+        {
+            var baseObject = new BaseClass();
+            var derivedObject = new DerivedClass();
+
+            // Error CS1540, because myValue can only be accessed by
+            // classes derived from BaseClass.
+            // baseObject.myValue = 10;
+
+            // OK, because this class derives from BaseClass.
+            derivedObject.myValue = 10;
+        }
+    }
+
+
+    ////private protected
+    //// Assembly1.cs  
+    //// Compile with: /target:library  
+    //public class BaseClass
+    //{
+    //    private protected int myValue = 0;
+    //}
+
+    //public class DerivedClass1 : BaseClass
+    //{
+    //    void Access()
+    //    {
+    //        var baseObject = new BaseClass();
+
+    //        // Error CS1540, because myValue can only be accessed by
+    //        // classes derived from BaseClass.
+    //        // baseObject.myValue = 5;  
+
+    //        // OK, accessed through the current derived class instance
+    //        myValue = 5;
+    //    }
+    //}
+
+
+    //Polymorphism Method Overriding
+
+    public class X
+    {
+        public virtual void A()
+        {
+            Console.WriteLine("X.A");
+        }
+    }
+    public class Y : X
+    {
+        public sealed override void A()
+        {
+            Console.WriteLine("Y.A");
+        }
+    }
+
+    public class Z : Y
+    {
+        //A can not be further overriden because parent/base class i.e. class Y method A()
+        //is being sealed so we can not override further
+        public new void A()
+        {
+            Console.WriteLine("Z.A");
         }
     }
 }

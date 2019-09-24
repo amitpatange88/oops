@@ -13,6 +13,23 @@ namespace oops
 
         static void Main(string[] args)
         {
+            //X x1 = new X();
+            //x1.A();
+
+            //Y y1 = new Y();
+            //y1.A();
+
+            //Z z1 = new Z();
+            //z1.A();
+
+            X y2 = new Y();
+            y2.A();
+
+
+
+
+            Console.ReadKey();
+
             //all oops concepts are implemented here.
             //Console.WriteLine(System.Environment.MachineName);
             //Console.WriteLine(System.Environment.UserName);

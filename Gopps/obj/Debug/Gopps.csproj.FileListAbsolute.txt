@@ -1,6 +1,6 @@
-C:\E\VS-Programs\oops\Gopps\obj\Debug\Gopps.csprojResolveAssemblyReference.cache
 C:\E\VS-Programs\oops\Gopps\bin\Debug\Gopps.exe.config
 C:\E\VS-Programs\oops\Gopps\bin\Debug\Gopps.exe
 C:\E\VS-Programs\oops\Gopps\bin\Debug\Gopps.pdb
 C:\E\VS-Programs\oops\Gopps\obj\Debug\Gopps.exe
 C:\E\VS-Programs\oops\Gopps\obj\Debug\Gopps.pdb
+C:\E\VS-Programs\oops\Gopps\obj\Debug\Gopps.csprojResolveAssemblyReference.cache
