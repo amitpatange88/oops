@@ -22,13 +22,18 @@ namespace oops
             //Z z1 = new Z();
             //z1.A();
 
-            X y2 = new Y();
-            y2.A();
+            //X y2 = new Y();
+            //y2.A();
+
+            //Constructor c = new Constructor();
+            //c.CallConstrcutorSeq();
+
+            //TupleUsage();
+
+            YieldKeyword();
 
 
 
-
-            Console.ReadKey();
 
             //all oops concepts are implemented here.
             //Console.WriteLine(System.Environment.MachineName);
@@ -46,7 +51,7 @@ namespace oops
             //derivedObject.myValue = 10;
 
             //ternary operator example
-            TernartOperator();
+            //TernartOperator();
 
             Console.ReadKey();
         }

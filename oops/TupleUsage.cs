@@ -19,7 +19,7 @@ namespace oops
             var response = ParseFullName(fullName);
 
             Console.WriteLine("First Name : "+response.Item1);
-            Console.WriteLine("First Name : " + response.Item2);
+            Console.WriteLine("Middle Name : " + response.Item2);
             Console.WriteLine("Last Name : " + response.Item3);
             Console.ReadLine();
         }

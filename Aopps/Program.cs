@@ -51,9 +51,30 @@ namespace Aopps
         }
     }
 
-    public class Student
+    public class Student 
+    {
+        public string StudentName { get; set; } 
+    }
+
+
+    public class Teacher : Comp
     {
         public string StudentName { get; set; }
+
+        public void ProcessComp()
+        {
+            Comp c = new Comp();
+        }
+    }
+
+
+    public class Comp
+    {
+        public Comp()
+        {
+
+        }
+        
     }
 
 }
