@@ -74,6 +74,7 @@
     <Compile Include="Interfaces\MathComponents.cs" />
     <Compile Include="LINQData.cs" />
     <Compile Include="Multithread.cs" />
+    <Compile Include="OperatorOverloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringMethods.cs" />

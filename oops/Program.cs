@@ -8,6 +8,28 @@ namespace oops
     /// </summary>
     public class Program //: BaseClass
     {
+        public const string FullName = "Amit Patange";
+        public readonly string FirstName = "Amit";
+        public readonly static string LastName = "Patange";
+
+        Program()
+        {
+            FirstName = "Axy";
+        }
+
+        Program(int a)
+        {
+            FirstName = "Gyr";
+        }
+
+        static Program()
+        {
+            LastName = "Job";
+        }
+        
+
+
+
         //present in 7.3 c# version.
         //private protected string MyName = default(string);
 
